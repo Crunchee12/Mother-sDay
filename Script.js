@@ -142,13 +142,13 @@
 
     utt.onstart = () => {
       speaking = true;
-      btn.innerHTML = '⏹ Ihinto';
+      btn.innerHTML = '⏹ Stop';
       btn.style.opacity = '0.85';
     };
 
     utt.onend = utt.onerror = () => {
       speaking = false;
-      btn.innerHTML = '🔊 Pakinggan ang Letter';
+      btn.innerHTML = '🔊 Pa Pindot po ma Hihi';
       btn.style.opacity = '1';
     };
 
